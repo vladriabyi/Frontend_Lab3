@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.profile-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    background-color: #1e3a8a;
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.profile-greeting {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.profile-tagline {
+    font-size: 1.1rem;
+    color: #e0e7ff;
+    margin-top: 10px;
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.action-item {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-btn,
+.logout-btn {
+    background-color: #1e40af;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-btn:hover,
+.logout-btn:hover {
+    background-color: #3b82f6;
+    transform: translateY(-2px);
+}
+
+.profile-btn {
+    background-color: #2563eb;
+}
+
+.profile-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.logout-btn {
+    background-color: #e53e3e;
+}
+
+.logout-btn:hover {
+    background-color: #c53030;
+}
