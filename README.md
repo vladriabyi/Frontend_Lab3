@@ -1,6 +1,6 @@
-# KPitter Frontend
+# KPItter Frontend
 
-KPitter is a microblogging platform built with React. This project allows users to register, log in, create posts, like posts, and interact with other users' posts.
+KPItter is a microblogging platform built with React. This project allows users to register, log in, create posts, like posts, and interact with other users' posts.
 
 ## Features
 
